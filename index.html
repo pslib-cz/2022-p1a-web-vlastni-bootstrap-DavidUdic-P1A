@@ -10,29 +10,35 @@
 </head>
 <body>
   
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#"></a>
-          <<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse navbar-nav ms-auto" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#" style="border: 1px solid #DDD; border-radius: 5px;">Domů</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#" style="border: 1px solid #DDD; border-radius: 5px;">O vytváření plánů</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#" style="border: 1px solid #DDD; border-radius: 5px;">Zkušenosti a proměnny</a>
-              </li>
-            </ul>
-          </div>
+  <nav class="navbar navbar-expand-lg bg-success">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Plány na míru</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">O nás</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Služby</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Kontakt</a>
+          </li>
+        </ul>
+        <div class="d-flex">
+          <button class="btn btn-light me-2" type="submit">Přihlásit se</button>
+          <button class="btn btn-primary" type="submit">Registrace</button>
         </div>
-      </nav>
+      </div>
+    </div>
+  </nav>
+  
+  
    
-    <div class="bg-image " style="background-image: url('./obrazky/hollowed-boxes.svg'); height: 100vh;">
+    <div class="bg-image " style="background-image: url('./obrazky/hollowed-boxes.svg'); height: 100%;">
         <div class="container py-5">
             <h2 class="text-center mb-4">Nejznámější cheaty</h2>
             <div class="row">
@@ -68,7 +74,55 @@
               </div>
             </div>
           </div>
+
+          <br>
+          <div class="container text-center my-4">
+            <h2>Proměny klientů</h2>
+          </div>
+          <br>
+          <div class="container p-5">
+          <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./obrazky/foto4.jpg" class="d-block w-100" alt="cdasda">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Tomáš Vavrle</h5>
+                  <p>První klient, který se rozhodl začít s našimi plány na míru. Výsledky jsou vidět.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./obrazky/foto5.webp" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Adéla Kopecká</h5>
+                  <p>Adéla se rozhodla začít s našimi plány na míru. Výsledky jsou vidět.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./obrazky/foto6.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Pepa Hospodský</h5>
+                  <p>Pepa se rozhodl začít s našimi plány na míru. Výsledky jsou vidět.</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
     </div>
+
+    
       
 
 
