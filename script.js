@@ -12,7 +12,7 @@ function calculateCalories() {
 	const activity = parseFloat(document.getElementById("activity").value);
 
 	const maintainWeight = Math.round((10 * weight + 6.25 * height - 5 * age + 5) * activity);
-	const loseWeight = maintainWeight - 500;
+	const loseWeight = maintainWeight - 350;
 	const gainWeight = maintainWeight + 500;
 
 	document.getElementById("maintain-weight").innerHTML = maintainWeight;
