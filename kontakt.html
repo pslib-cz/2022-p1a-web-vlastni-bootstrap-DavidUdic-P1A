@@ -38,48 +38,31 @@
         </div>
       </nav>
 
-    <div class="pt-4">
-        <div class="container-md container-fluid pt-5 mt-5 border-bottom">
-          <h1 class="h1">Contact</h1>
+      <div class="container text-center">
+        <div class="pt-2">
+            <h1 class="display-1 fw-bolder">Kontakt</h1>
+            <p>Kontaktujte nás. Rádi vám pomůžeme</p>
+            <form onsubmit="" id="form">
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label mt-2"><strong>Jméno</strong></label>
+                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Vaše jméno"
+                        autocomplete="on">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label mt-2"><strong>Emailová
+                            adresa</strong></label>
+                    <input type="email" class="form-control" id="exampleFormControlInput2"
+                        placeholder="jmeno@domena.com" autocomplete="on">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label"><strong>Vaše zpráva</strong></label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Vaše požadavky a cíle"
+                        autocomplete="username"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary" id="btn">Odeslat</button>
+            </form>
+        
         </div>
-      </div>
-
-      <div class="container mt-2">
-        <form>
-          <div class="mb-3">
-            <label for="name" class="form-label">Name</label>
-            <input
-              type="text"
-              class="form-control"
-              id="name"
-              name="name"
-              required
-            />
-          </div>
-          <div class="mb-3">
-            <label for="email" class="form-label">Email</label>
-            <input
-              type="email"
-              class="form-control"
-              id="email"
-              name="email"
-              required
-            />
-          </div>
-          <div class="mb-3">
-            <label for="message" class="form-label">Message</label>
-            <textarea
-              class="form-control"
-              id="message"
-              name="message"
-              rows="5"
-              required
-            ></textarea>
-          </div>
-          <button type="submit" class="btn btn-custom">Submit</button>
-        </form>
-      </div>
-    </div>
 
     <div class="container">
       <footer class="py-5">
